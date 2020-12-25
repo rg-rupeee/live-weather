@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik';
+  
+  color: #4056a1;
+}
+
+body{
+  background-color: #4056a1;
+}
+
+h1{
+  color: red;
+  text-align: center;
+  padding: 1rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  border: 5px solid #a8d0e6;
+  box-shadow: 10px 10px 5px black;
+  padding: 1vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* background-color: #efe2ba; */
+  background-color: #efe2ba;
+  /* border-radius: .5rem; */
+}
+  
+::selection {
+  color: #a8d0e6;
+  background: #24305e;
+}
+
+.flex-container{
+  padding: .3vw;
+  margin: .1vw;
+  /* border: 3px solid blue; */
+}
+
+.temp-state{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.ts-container{
+  padding: .3vw;
+  margin: .3vw;
+  /* border: 1px solid green; */
+}
+
+.more-details{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+}
+
+.md-container{
+  padding: .3vw;
+  margin: .3vw;
+  border: 1px solid #c5c6c7;
+  box-shadow: 1px 1px 5px grey;
+  flex-grow: 1;
+  text-align: center;
+  /* background-color: #45a29e; */
+  background-color: #c5cbe3;
+  /* border-radius: 1rem; */
+}
+
+.wind-speed{
+  display: flex;
+  flex-direction: column;
+}
+
+.ws{
+  padding: .3vw;
+  margin: .3vw;
+  /* border: 1px solid orange; */
+}
+
+.min-temp{
+  display: flex;
+  flex-direction: column;
+}
+
+.mn{
+  padding: .3vw;
+  margin: .3vw;
+  /* border: 1px solid orange; */
+}
+
+.max-temp{
+  display: flex;
+  flex-direction: column;
+}
+
+.mx{
+  padding: .3vw;
+  margin: .3vw;
+  /* border: 1px solid orange; */
+}
+
+.humidity{
+  display: flex;
+  flex-direction: column;
+}
+
+.hm{
+  padding: .3vw;
+  margin: .3vw;
+  /* border: 1px solid orange; */
+}
+
+.date{
+  font-size: 1.3rem;
+  align-self: start;
+}
+
+.city{
+  font-size: 1.1rem;
+  align-self: start;
+}
+
+.logo{
+  text-align: center;
+}
+
+.img{
+  width: 8rem;
+}
+
+.temprature{
+  font-size: 5rem;
+  text-align: center;
+  color: #f13c20; 
+}
+
+.temp-sup{
+  font-size: 2rem;
+}
+
+sup{
+  color: #f13c20; 
+}
+
+.weather-state{
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: #000;
+}
+
+.sm{
+  font-family: 'Quicksand', sans-serif;
+  color: #f13c20; 
+}
